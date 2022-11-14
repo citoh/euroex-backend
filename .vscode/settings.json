@@ -1,0 +1,15 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {
+            "apiUrl": "http://localhost:8080/api",
+        },
+        "local": {
+            "apiUrl": "{{$shared baseUrl}}",
+        },
+        "production": {}
+    },
+    "cSpell.ignoreWords": [
+        "Termo",
+        "inforadar"
+    ]
+}
